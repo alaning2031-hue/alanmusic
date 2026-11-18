@@ -1,0 +1,31 @@
+ALANMUSIC 3.0 - uso personal
+============================
+
+EN TU PC
+1. Cierra cualquier ventana negra de AlanMusic anterior.
+2. Doble clic en iniciar.bat (necesita Python: https://www.python.org/downloads/ con "Add python.exe to PATH").
+3. Se abre http://localhost:8080. Tus favoritas, playlists y musica se conservan.
+
+EN TU CELULAR - OPCION A (recomendada): publicarla gratis en internet con GitHub Pages
+Funciona en cualquier lugar, aunque el PC este apagado, y se instala como app.
+1. Crea una cuenta en https://github.com (si no tienes).
+2. Crea un repositorio nuevo, publico, llamado: alanmusic
+3. En el repositorio: "Add file" > "Upload files" > arrastra TODOS los archivos de esta carpeta > "Commit changes".
+4. Settings > Pages > Source: "Deploy from a branch" > Branch: main / (root) > Save.
+5. En 1-2 minutos tu app estara en:  https://TU-USUARIO.github.io/alanmusic/
+6. En Google Cloud > Credenciales > tu clave > Restricciones "Sitios web", agrega:
+      https://TU-USUARIO.github.io/*
+7. Abre ese enlace en el celular (Chrome o Brave) > menu > "Instalar app" / "Agregar a pantalla principal".
+8. En la app del celular, ve a Ajustes > YouTube y pega tu clave.
+Para actualizar en el futuro: sube de nuevo el index.html al repositorio.
+
+EN TU CELULAR - OPCION B (rapida): desde tu PC por Wi-Fi
+1. Doble clic en iniciar-celular.bat. La ventana te mostrara una direccion tipo http://192.168.1.X:8080
+2. Abrela en el celular (conectado al MISMO Wi-Fi). El PC debe quedar encendido.
+3. Agrega esa direccion (http://192.168.1.X:8080/*) a tu clave en Google Cloud.
+4. Si Windows pregunta por el Firewall, permite "Redes privadas".
+Nota: por esta via el navegador no permite instalarla como app completa (requiere HTTPS); usa la opcion A para eso.
+
+PASAR TUS DATOS DEL PC AL CELULAR
+Ajustes > Datos > "Descargar copia" en el PC, envia el archivo al celular y alli "Restaurar copia".
+(Tu musica local se agrega aparte en cada dispositivo desde Biblioteca.)
